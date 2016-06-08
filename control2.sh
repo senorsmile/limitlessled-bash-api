@@ -50,47 +50,29 @@ zone4off="\x36\00\x55"
 
 allnight="\x39\00\x55"
 allnight2="\xB9\00\x55"
-
-#NIGHT SAVER MODE GROUP 1  0x3B  100ms followed by:  0xBB
 zone1night="\x3B\00\x55"
 zone1night2="\xBB\00\x55"
-
-#NIGHT SAVER MODE GROUP 2  0x33  100ms followed by:  0xB3
 zone2night="\x33\00\x55"
 zone2night2="\xB3\00\x55"
-
-#NIGHT SAVER MODE GROUP 3  0x3A  100ms followed by:  0xBA
 zone3night="\x3A\00\x55"
 zone3night2="\xBA\00\x55"
-
-#NIGHT SAVER MODE GROUP 4  0x36  100ms followed by:  0xB6
 zone4night="\x36\00\x55"
 zone4night2="\xB6\00\x55"
 
-#FULL BRIGHTNESS ALL   0x35  100ms followed by:  0xB5
 allfull="\x35\00\x55"
 allfull2="\xB5\00\x55"
-
-#FULL BRIGHTNESS GROUP 1   0x38  100ms followed by:  0xB8
 zone1full="\x35\00\x55"
 zone1full2="\xB5\00\x55"
-
-#FULL BRIGHTNESS GROUP 2   0x3D  100ms followed by:  0xBD
 zone2full="\x35\00\x55"
 zone2full2="\xB5\00\x55"
-
-#FULL BRIGHTNESS GROUP 3   0x37  100ms followed by:  0xB7
 zone3full="\x35\00\x55"
 zone3full2="\xB5\00\x55"
-
-#FULL BRIGHTNESS GROUP 4   0x32  100ms followed by:  0xB2
 zone4full="\x35\00\x55"
 zone4full2="\xB5\00\x55"
 
 up="\x3c\00\x55"
 down="\x34\00\x55"
 
-#eval incmd=\$$incmd
 
 case $cmd in
   on|off)
